@@ -1,6 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
 /* work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
-.{
+*{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+/* header section start */
+.header-section{
+    background-color: #FFf;
+    display: flex;
+    justify-content: space-between;
+    height: 130px;
+    padding: 38px 240px 35px 240px ;
+   align-items: center;
+    border: 2px solid rebeccapurple;
+}
+
+.header-section > ul{
+    display: flex;
+}
+.header-about-section li{
+   list-style: none;
+   margin-right: 32px;
+   cursor: pointer;
+   color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+
+
+}
+.gamer-logo{ 
+        width: 86.041px;
+        height: 40px;
+} 
+
+

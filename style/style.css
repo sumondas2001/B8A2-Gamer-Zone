@@ -9,15 +9,25 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.button-primary{
+    background-color: hsl(308, 81%, 49%);
+    color: #FFf;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 18px 40px;
+    border-radius: 48px;
+    
+}
+
 /* header section start */
 .header-section{
     background-color: #FFf;
     display: flex;
     justify-content: space-between;
-    height: 130px;
-    padding: 38px 240px 35px 240px ;
-   align-items: center;
-    border: 2px solid rebeccapurple;
+    padding: 38px 200px 30px 200px ;
+    align-items: center;
+  
 }
 
 .header-section > ul{
@@ -33,9 +43,100 @@
 
 
 }
+.Follow-us{
+    background-color: rgb(212, 210, 210);
+    padding: 18px 24px 17px 24px;
+    border-radius: 8px;
+    
+}
+.fa-youtube{
+    width: 33.916px;
+    height: 24px;
+   
+    margin-left: 24px;
+}
+.fa-tiktok{
+    width: 24px;
+    height: 24px;
+
+   
+
+}
 .gamer-logo{ 
         width: 86.041px;
         height: 40px;
-} 
+}
 
 
+.banner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #FFf;
+    padding: 19px 200px 0px 200px;
+    
+    
+    
+  
+}
+.banner-img{
+    width: 700px;
+    height: 400 px;
+    margin-left: 100px;
+   
+    
+
+   
+
+}
+.banner-title{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    
+
+}
+.banner-fearure{
+    color: #534C64;
+
+font-size: 20px;
+
+font-weight: 500;
+margin:17px;
+
+}
+.banner-goat{
+    text-align: center;
+    font-size: 95px;
+    font-weight: 800;
+    color: hsl(308, 81%, 49%);
+
+
+}
+.button-sec{
+    padding: 21px 48px;
+    border-radius: 48px;
+    background-color:#4EC5F7 ;
+    margin-left: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and max-width(576px) {
+
+    .header-section{
+
+       
+}
+
+
+}

@@ -206,6 +206,7 @@ margin:17px;
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 100px;
     
    
 }
@@ -214,9 +215,57 @@ margin:17px;
     font-size: 20px;
     font-weight: 500;
     margin-top: 24px;
+   
+   
     
 
 }
+
+
+
+
+.play{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 90px 120px 90px;
+    gap: 100px;
+   
+}
+.play-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 24px; 
+
+
+}
+.play-para{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px; 
+   
+}
+.play-img{
+  height: 600px;
+  width: 550px;
+  margin-left: 140px;
+ 
+   
+
+
+}
+.play-img-2{
+    width: 300px;
+    height: 350px;
+    position: relative;
+    bottom: 250px;
+  
+    
+
+}
+
 
 
 
